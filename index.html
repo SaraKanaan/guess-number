@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Secret Number !</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+    <section class="Main">
+        <div class="container">
+
+            <div class="content-box">
+
+                <div class="title">
+                    <h2>Guess the secret number ! </h2>
+                </div>
+
+                <div class="about-game">
+                    <h3>
+                        The computer will choose a secret number and hide it between 1 - 100.
+                        You must guess the number in 10 turns or less.
+                        If your guess is high or low, it will give you a hint.
+                    </h3>
+                </div>
+                <section class="start-game">
+
+                    <!-- to enter the number from the user-->
+                    <input type="number" name="Number" id="inputValue" class="style" placeholder="Number .."
+                        maxlength="3" required>
+
+                    <!--Start Game-->
+                    <input type="submit" value="Guess" class="OnGuessClick style" id="Guess">
+
+                    <!--Reset Game-->
+                    <button class="OnResetGame style" id="reset"> Reset Game</button>
+
+
+                    <h3 id="output"> Result : </h3>
+                    <!--Number of user attempts-->
+                    <div class="User-counter">
+                        <label> Number of Attempts : </label>
+                        <button id="countNum">0</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

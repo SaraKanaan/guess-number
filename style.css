@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+}
+
+.container{
+    background-color:rgba(2, 2, 2, 0.685);
+    display: flex;
+    justify-content: space-around;
+}
+.Main{
+    margin: 5% 12%;
+    background-image: url("qu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+.title h2{
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.Main .content-box {
+    padding: 5% 14%;
+    text-align: center;
+}
+.about-game{
+    max-width: 100%;
+    margin: 27px 72px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+.Main .content-box  #Guess , #reset{
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    color: #040505;
+    background-color: #db9b9b;
+    border: 2px solid #8f8f8f;
+    border-radius: 5px;
+
+}
+.style{
+    width: 48%;
+    height: 49px;
+    border: 2px solid #8f8f8f;
+    border-radius: 5px;
+    display: block;
+    margin: 11px 181px;
+    
+}
+#inputValue{
+    text-indent: 18px;
+    padding: 20px;
+}
+#output{
+    color: white;
+    font-size: 20px   ;
+    margin-bottom: 23px; 
+    margin-right: 71px;
+}
+#countNum{
+padding: 10px;
+background-color: rgb(163, 255, 127);
+border: none;
+}
+.User-counter label
+{
+    color: #e9e9ee;
+    font-size: 23px;
+}
+
+@media(max-width:1060px){
+
+    .style{
+        margin: 11px 152px;
+    }
+} 
+@media(max-width:950px){
+
+    .style{
+        margin: 11px 123px;
+    }
+    .about-game{
+        margin: 27px 4px;
+
+    }
+} 
+@media(max-width:750px){
+
+    .style{
+        margin: 11px 93px;
+
+    }
+} 
+@media(max-width:570px){
+
+    .style{
+        margin: 8px 84px;
+    }
+}
+@media(max-width:500px){
+
+    .style{
+        margin: 13px 77px;
+    }
+} 
+
+@media(max-width:400px){
+
+    .style{
+        margin: 13px 56px;
+    }
+} 
+ 
+ 
